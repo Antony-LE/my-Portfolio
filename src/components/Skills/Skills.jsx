@@ -1,5 +1,6 @@
 import React from 'react';
 import './Skills.css';
+import uniqid from 'uniqid';
 import PropTypes from 'prop-types';
 import skillsElement from '../../data/data-skills';
 
@@ -9,7 +10,7 @@ function Skills({ className, title, description }) {
       <h2>{title}</h2>
       <span>{description}</span>
       <ul>
-        {skillsElement.map((skill) => <li>{skill}</li>)}
+        {skillsElement.map((skill) => <li key={uniqid()}>{skill}</li>)}
       </ul>
     </div>
   );

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from '../Navbar/Navbar';
 import Logo from '../Logo/Logo';
 import SocialMediaNavbar from '../SocialMediaNavbar/SocialMediaNavbar';
@@ -9,18 +9,27 @@ import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
 import Contact from '../Contact/Contact';
 import ButtonCV from '../ButtonCV/ButtonCV';
+import ButtonDarkMode from '../ButtonDarkMode/ButtonDarkMode';
 import './App.css';
 
 function App() {
+  const [darkmode, setDarkmode] = useState(false);
+
+  const handleDarkModeButton = () => {
+    setDarkmode(!darkmode);
+    console.log('Dark Mode Activated !');
+  };
+
   return (
-    <div className="App">
-      <header className="App-header" />
+
+    <div className={`${darkmode ? 'App' : 'alt-style'}`}>
       <Navbar className="navbar" />
       <SocialMediaNavbar className="socialMediaNavbar" />
       <Logo className="logo" />
       <Title className="title" title="Antony LE, Développeur Web Fullstack JS" />
-      <ProfilePicture className="profile-picture" />
+      <ProfilePicture className="profile-picture" sourcePix={`${darkmode ? '../../maPhoto.png' : '../../maPhotoLunette.png'}`} />
       <ButtonCV className="buttonCV" />
+      <ButtonDarkMode className="buttonDarkMode" toggleDarkMode={handleDarkModeButton} />
       <Biography className="biography" />
       <Projects className="projects" />
       <Skills className="skills" />
