@@ -1,0 +1,9 @@
+.navbar {
+    font-size: 1em;
+    color: black;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 1em;
+}

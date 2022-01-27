@@ -1,0 +1,6 @@
+.contact {
+    display: inline-block;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1em;
+}

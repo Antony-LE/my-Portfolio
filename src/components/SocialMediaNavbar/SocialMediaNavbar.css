@@ -1,0 +1,9 @@
+.socialMediaNavbar {
+    font-size: 1em;
+    color: black;
+}
+
+.socialMediaNavbar img {
+    display: inline;
+    margin-right: 1em;
+}
