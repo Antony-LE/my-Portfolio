@@ -9,7 +9,7 @@ const projectsData = [
   {
     title: 'RPG',
     subtitle: 'Javascript',
-    description: 'Trouvez votre chemin dans ce labyrinthe généré aléatoirement par JS',
+    description: 'Trouvez votre chemin dans ce labyrinthe généré par JS',
     link: '#',
     image: 'https://img-19.ccm2.net/KTxQPz85nn5SGJLQLry7IzjWuas=/600x/094d0a5c78344526b1afc0da27c86a45/cs-source/EWq2SatM-30414.png',
   },
@@ -22,8 +22,8 @@ const projectsData = [
   },
   {
     title: 'Création d\'un paquet npm',
-    subtitle: 'npm',
-    description: 'Création d\'un paquet npm permettant d\'afficher une fusée, To the moon baby !!',
+    subtitle: 'Npm',
+    description: 'Création d\'un paquet npm permettant d\'afficher une fusée, to the moon baby !!',
     link: '#',
     image: 'https://pbs.twimg.com/media/EyTKnt_WEAA-KLT?format=png&name=4096x4096',
   },

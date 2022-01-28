@@ -6,16 +6,21 @@ import projectsData from '../../data/data-projects';
 
 function Projects({ className }) {
   return (
-    <div className={className}>
-      {projectsData.map((project) => (
-        <section key={uniqid()}>
-          <h2>{project.title}</h2>
-          <h3>{project.subtitle}</h3>
-          <span>{project.description}</span>
-          <img src={project.image} alt={project.title} />
-        </section>
-      ))}
-    </div>
+    <>
+      <h2>Mes Projets</h2>
+      <span>🚧🚧🚧🚨  Under Contruction  🚨🚧 🚧 🚧 </span>
+      <div className={className}>
+        {projectsData.map((project) => (
+          <section key={uniqid()}>
+            <h3>{project.title}</h3>
+            <h4>{project.subtitle}</h4>
+            <span>{project.description}</span>
+            <img src={project.image} alt={project.title} />
+          </section>
+        ))}
+      </div>
+
+    </>
   );
 }
 

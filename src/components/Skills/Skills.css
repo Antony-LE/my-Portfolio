@@ -1,0 +1,25 @@
+.skills {
+    margin-top: 4em;
+}
+
+.skills h2 {
+color: white;
+font-size: 2em;
+}
+
+.skills span {
+    display: inline-block;
+    width: 55vw;
+}
+
+.skills li {
+    display: inline-block;
+    text-align: left;
+    color: #48BB78;
+    font-size: 1.5em;
+    width: 35vw;
+    background-color: #1F2937;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 20px;
+}

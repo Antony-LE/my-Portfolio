@@ -1,6 +1,17 @@
 .contact {
-    display: inline-block;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     margin: 1em;
+}
+
+.contact h3 {
+    color: white;
+    font-size: 2em;
+}
+
+.contact iframe {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 2em;
 }
