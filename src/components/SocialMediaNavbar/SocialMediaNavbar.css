@@ -4,8 +4,8 @@
 }
 
 .socialMediaNavbar img {
-    display: inline;
-    margin-right: 1em;
-    margin-bottom: 1em;
-    margin-top: 1em;
+    display: inline-block;
+    margin-right: 1.5em;
+    margin-top: 0.5em;
+    text-align: right;
 }

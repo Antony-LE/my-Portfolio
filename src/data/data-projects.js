@@ -9,7 +9,7 @@ const projectsData = [
   {
     title: 'RPG',
     subtitle: 'Javascript',
-    description: 'Trouvez votre chemin dans ce labyrinthe généré par JS',
+    description: 'Trouvez votre chemin dans ce labyrinthe !',
     link: '#',
     image: 'https://img-19.ccm2.net/KTxQPz85nn5SGJLQLry7IzjWuas=/600x/094d0a5c78344526b1afc0da27c86a45/cs-source/EWq2SatM-30414.png',
   },

@@ -1,7 +1,4 @@
 import React, { useState } from 'react';
-import Navbar from '../Navbar/Navbar';
-import Logo from '../Logo/Logo';
-import SocialMediaNavbar from '../SocialMediaNavbar/SocialMediaNavbar';
 import ProfilePicture from '../ProfilePicture/ProfilePicture';
 import Title from '../Title/Title';
 import Biography from '../Biography/Biography';
@@ -11,6 +8,7 @@ import Contact from '../Contact/Contact';
 import ButtonCV from '../ButtonCV/ButtonCV';
 import ButtonDarkMode from '../ButtonDarkMode/ButtonDarkMode';
 import BiographyTypical from '../BiographyTypical/BiographyTypical';
+import Header from '../Header/Header';
 import './App.css';
 
 function App() {
@@ -23,9 +21,7 @@ function App() {
   return (
 
     <div className={`${darkmode ? 'App' : 'alt-style'}`}>
-      <Navbar className="navbar" />
-      <SocialMediaNavbar className="socialMediaNavbar" />
-      <Logo className="logo" />
+      <Header className="header" />
       <Title className="title" title="Antony LE, Développeur Web Fullstack JS" />
       <ProfilePicture className="profile-picture" sourcePix={`${darkmode ? '../../maPhoto.png' : '../../maPhotoLunette.png'}`} />
       <ButtonCV className="buttonCV" />
