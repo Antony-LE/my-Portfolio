@@ -3,7 +3,7 @@ import './ButtonCV.css';
 import PropTypes from 'prop-types';
 
 function ButtonCV({ className }) {
-  return <a className={className} href="./AntonyLE-CV.pdf">Télécharger mon cv PDF</a>;
+  return <a className={className} href="./AntonyLE-CV.pdf" target="_blank">Télécharger mon CV PDF</a>;
 }
 
 ButtonCV.propTypes = {

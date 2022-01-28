@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 function ProfilePicture({ className, sourcePix }) {
   return (
     <div className={className}>
-      <img src={sourcePix} alt={className} height="300px" width="300px" />
+      <img src={sourcePix} alt={className} height="250px" width="250px" />
     </div>
   );
 }

@@ -1,2 +1,2 @@
-const navbarElements = ['Home', 'About Me', 'Mes projects', 'Contact'];
+const navbarElements = ['Antony Le', '|', 'Home', 'About Me', 'Mes projects', 'Contact'];
 export default navbarElements;

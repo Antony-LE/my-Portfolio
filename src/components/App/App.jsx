@@ -10,6 +10,7 @@ import Skills from '../Skills/Skills';
 import Contact from '../Contact/Contact';
 import ButtonCV from '../ButtonCV/ButtonCV';
 import ButtonDarkMode from '../ButtonDarkMode/ButtonDarkMode';
+import BiographyTypical from '../BiographyTypical/BiographyTypical';
 import './App.css';
 
 function App() {
@@ -17,7 +18,6 @@ function App() {
 
   const handleDarkModeButton = () => {
     setDarkmode(!darkmode);
-    console.log('Dark Mode Activated !');
   };
 
   return (
@@ -30,6 +30,7 @@ function App() {
       <ProfilePicture className="profile-picture" sourcePix={`${darkmode ? '../../maPhoto.png' : '../../maPhotoLunette.png'}`} />
       <ButtonCV className="buttonCV" />
       <ButtonDarkMode className="buttonDarkMode" toggleDarkMode={handleDarkModeButton} />
+      <BiographyTypical className="typical" />
       <Biography className="biography" />
       <Projects className="projects" />
       <Skills className="skills" />

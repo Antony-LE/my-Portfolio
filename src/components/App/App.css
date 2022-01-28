@@ -1,15 +1,17 @@
 body {
-  background-color: white;
+  background-color: #111827;
+  margin: 0;
 }
 
 .App {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 .alt-style {
-  background-color: black;
+  background-color: white;
   text-align: center;
-  color: white;
+  color: #717d97;
 }
 
 

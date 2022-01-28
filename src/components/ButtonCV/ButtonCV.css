@@ -1,4 +1,14 @@
 .buttonCV {
-    display: block;
-    margin: 1em;
+    display: inline-block;
+    margin: 0.5em;
+    padding: 1em;
+    background-color: #1F2937;
+    color: #717d97 ;
+    text-decoration: none;
+    border-radius:20px;
+}
+
+.buttonCV:hover {
+    background-color: #3e4b5c;
+    color: white;
 }
