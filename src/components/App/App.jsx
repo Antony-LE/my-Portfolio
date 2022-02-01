@@ -9,10 +9,11 @@ import ButtonCV from '../ButtonCV/ButtonCV';
 import ButtonDarkMode from '../ButtonDarkMode/ButtonDarkMode';
 import BiographyTypical from '../BiographyTypical/BiographyTypical';
 import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 import './App.css';
 
 function App() {
-  const [darkmode, setDarkmode] = useState(false);
+  const [darkmode, setDarkmode] = useState(true);
 
   const handleDarkModeButton = () => {
     setDarkmode(!darkmode);
@@ -31,6 +32,7 @@ function App() {
       <Projects className="projects" />
       <Skills className="skills" title="Skills et Technologies" description="JavaScript et React 🤤🤤🤤... Et je ne compte pas m'arrêter en si bon chemin ! Adepte du fail fast, learn fast j'aime me prendre la tête sur des projets complexes avec l'aide de ma fidèle tasse de café " />
       <Contact className="contact" title="Contact" description="Je suis disponible dans ce secteur, mais le mieux c'est de me m'envoyer un mail à l'adresse suivante : le.antony.l@gmail.com" />
+      <Footer className="footer" />
     </div>
   );
 }

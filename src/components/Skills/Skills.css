@@ -8,6 +8,8 @@ font-size: 2em;
 }
 
 .skills span {
+    margin-top: 1em;
+    margin-bottom: 1em;
     display: inline-block;
     width: 55vw;
 }

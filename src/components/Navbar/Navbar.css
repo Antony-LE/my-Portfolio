@@ -2,12 +2,12 @@
     font-size: 1em;
     background-color: #1F2937;
     font-weight: bold;
-    /* position: fixed; */
     text-align: left;
+    width: 40vw;
 }
 
 .navbar li {
     display: inline;
-    margin-right: 3em;
+    margin-right: 1em;
     color: #717d97;
 }
