@@ -7,7 +7,7 @@ import projectsData from '../../data/data-projects';
 function Projects({ className }) {
   return (
     <>
-      <h2>Mes Projets</h2>
+      <h2 id="projets">Mes Projets</h2>
       <span>🚧🚧🚧🚨  Under Contruction  🚨🚧 🚧 🚧 </span>
       <div className={className}>
         {projectsData.map((project) => (

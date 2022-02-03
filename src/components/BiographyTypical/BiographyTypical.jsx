@@ -7,6 +7,7 @@ function BiographyTypical({ className }) {
   return (
 
     <Typical
+      id="about"
       className={className}
       loop={Infinity}
       wrapper="p"

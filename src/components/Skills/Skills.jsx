@@ -10,7 +10,11 @@ function Skills({ className, title, description }) {
       <h2>{title}</h2>
       <span>{description}</span>
       <ul>
-        {skillsElement.map((skill) => <li key={uniqid()}>{skill}</li>)}
+        {skillsElement.map((skill) => (
+          <li key={uniqid()}>
+            {skill}
+          </li>
+        ))}
       </ul>
     </div>
   );

@@ -8,7 +8,11 @@ function Navbar({ className }) {
   return (
     <nav className={className}>
       <ul>
-        {navbarElements.map((navbarElement) => <li key={uniqid()}>{navbarElement}</li>)}
+        {navbarElements.map((navbarElement) => (
+          <li key={uniqid()}>
+            <a href={navbarElement.ancre}>{navbarElement.element}</a>
+          </li>
+        ))}
       </ul>
     </nav>
   );
