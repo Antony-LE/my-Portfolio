@@ -30,7 +30,7 @@ function App() {
       <BiographyTypical className="typical" />
       <Biography className="biography" />
       <Projects className="projects" />
-      <Skills className="skills" title="Skills et Technologies" description="JavaScript et React 🤤🤤🤤... Et je ne compte pas m'arrêter en si bon chemin ! Adepte du fail fast, learn fast j'aime me prendre la tête sur des projets complexes avec l'aide de ma fidèle tasse de café " />
+      <Skills className="skills" title="Skills / Méthodes de travail" description="JavaScript et React 🤤🤤🤤... Et je ne compte pas m'arrêter en si bon chemin ! Adepte du fail fast, learn fast j'aime me prendre la tête sur des projets complexes avec l'aide de ma fidèle tasse de café " />
       <Contact className="contact" title="Contact" description="Je suis disponible dans ce secteur, mais le mieux c'est de me m'envoyer un mail à l'adresse suivante : le.antony.l@gmail.com" />
       <Footer className="footer" />
     </div>

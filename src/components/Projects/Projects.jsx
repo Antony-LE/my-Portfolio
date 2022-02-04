@@ -6,8 +6,15 @@ import projectsData from '../../data/data-projects';
 
 function Projects({ className }) {
   return (
-    <>
-      <h2 id="projets">Mes Projets</h2>
+    <div>
+      <img
+        id="projets"
+        src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2013/png/iconmonstr-code-2.png&r=113&g=125&b=151"
+        alt="logo developement"
+        width="70px"
+        height="70px"
+      />
+      <h2>Mes Projets</h2>
       <span>🚧🚧🚧🚨  Under Contruction  🚨🚧 🚧 🚧 </span>
       <div className={className}>
         {projectsData.map((project) => (
@@ -20,7 +27,7 @@ function Projects({ className }) {
         ))}
       </div>
 
-    </>
+    </div>
   );
 }
 

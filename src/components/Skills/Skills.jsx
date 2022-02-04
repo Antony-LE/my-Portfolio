@@ -7,6 +7,12 @@ import skillsElement from '../../data/data-skills';
 function Skills({ className, title, description }) {
   return (
     <div className={className}>
+      <img
+        src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2014/png/iconmonstr-cpu-2.png&r=113&g=125&b=151"
+        alt="chip icon"
+        width="70px"
+        height="70px"
+      />
       <h2>{title}</h2>
       <span>{description}</span>
       <ul>
