@@ -18,6 +18,7 @@ function Skills({ className, title, description }) {
       <ul>
         {skillsElement.map((skill) => (
           <li key={uniqid()}>
+            <img src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-check-mark-6.png&r=72&g=187&b=120" alt="checked icon" height="20px" width="20px" />
             {skill}
           </li>
         ))}

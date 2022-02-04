@@ -7,6 +7,12 @@
     margin-bottom: 4em;
 }
 
+.contact a {
+    text-decoration: underline;
+    color: inherit;
+    font-weight: bold;
+}
+
 .contact img {
     text-align: center;
     display: block;
@@ -25,3 +31,4 @@
     margin: 0 auto;
     margin-top: 2em;
 }
+

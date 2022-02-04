@@ -12,11 +12,11 @@ function BiographyTypical({ className }) {
       loop={Infinity}
       wrapper="p"
       steps={[
-        'Je suis un développeur Web Fullstack JS 💻',
+        'Je suis aussi un papa poule 🧑‍🍼',
         2000,
-        'Je suis un papa poule 🧑‍🍼',
+        'Un coureur du Dimanche 👟',
         2000,
-        'Je suis un coureur du Dimanche 👟',
+        'Et un grand amateur de 🍣🤤 ',
         2000,
       ]}
     />

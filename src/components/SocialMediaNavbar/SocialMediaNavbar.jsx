@@ -11,7 +11,7 @@ function SocialMediaNavbar({ className }) {
     <div className={className}>
       {socialMediaNavbarElements.map((socialMediaNavbarElement) => (
         <a key={uniqid()} href={socialMediaNavbarElement.link} target="_blank" rel="noreferrer">
-          <img src={socialMediaNavbarElement.icone} alt={className} width="30px" height="30px" />
+          <img src={socialMediaNavbarElement.icone} alt={className} width="35px" height="35px" />
         </a>
       ))}
     </div>

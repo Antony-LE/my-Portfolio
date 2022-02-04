@@ -1,10 +1,11 @@
 .navbar {
-    font-size: 1em;
     background-color: #1F2937;
     font-weight: bold;
     text-align: left;
     width: 40vw;
     text-decoration: none;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .navbar li {
@@ -12,6 +13,7 @@
     margin-right: 1em;
     color: #717d97;
     text-decoration: none;
+    font-size: 1.2em;
 }
 
 .navbar a {

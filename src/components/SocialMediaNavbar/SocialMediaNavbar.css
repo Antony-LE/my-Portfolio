@@ -1,15 +1,16 @@
 .socialMediaNavbar {
-    font-size: 1em;
+    font-size: 1.5em;
     color: black;
 }
 
 .socialMediaNavbar img {
     display: inline-block;
     margin-right: 1.5em;
-    margin-top: 0.5em;
+    margin-top: 0.8em;
     text-align: right;
 }
 
 .socialMediaNavbar img:hover {
    fill: white;
+   
 }
