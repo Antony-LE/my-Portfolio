@@ -1,6 +1,7 @@
 .title h1 {
     font-family: 'Roboto', sans-serif ;
     font-size: 2em;
-    color: #717d97;
-    margin-top: 3em;
+    color: #48BB78;
+    margin-top: 2.5em;
+    display: block;
 }

@@ -4,7 +4,13 @@ import './Title.css';
 
 function Title({ className, title }) {
   return (
-    <div id="home" className={className}>
+    <div className={className}>
+      <img
+        id="home"
+        alt="chip icon"
+        width="5px"
+        height="5px"
+      />
       <h1>{title}</h1>
     </div>
   );
@@ -19,4 +25,4 @@ Title.defaultProps = {
   className: '',
 };
 
-export default Title;
+export default React.memo(Title);

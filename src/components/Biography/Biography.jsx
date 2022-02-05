@@ -22,4 +22,4 @@ Biography.defaultProps = {
   className: '',
 };
 
-export default Biography;
+export default React.memo(Biography);

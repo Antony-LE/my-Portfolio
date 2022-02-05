@@ -1,6 +1,7 @@
 body {
   background-color: #111827;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 span {

@@ -8,6 +8,7 @@ function Skills({ className, title, description }) {
   return (
     <div className={className}>
       <img
+        id="skills"
         src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2014/png/iconmonstr-cpu-2.png&r=113&g=125&b=151"
         alt="chip icon"
         width="70px"
@@ -39,4 +40,4 @@ Skills.defaultProps = {
   description: '',
 };
 
-export default Skills;
+export default React.memo(Skills);

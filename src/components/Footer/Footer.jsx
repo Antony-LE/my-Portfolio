@@ -24,4 +24,4 @@ Footer.defaultProps = {
   className: '',
 };
 
-export default Footer;
+export default React.memo(Footer);

@@ -14,4 +14,4 @@ ButtonCV.defaultProps = {
   className: '',
 };
 
-export default ButtonCV;
+export default React.memo(ButtonCV);

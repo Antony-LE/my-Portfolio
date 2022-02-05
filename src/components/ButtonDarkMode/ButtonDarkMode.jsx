@@ -15,4 +15,4 @@ ButtonDarkMode.defaultProps = {
   className: '',
 };
 
-export default ButtonDarkMode;
+export default React.memo(ButtonDarkMode);

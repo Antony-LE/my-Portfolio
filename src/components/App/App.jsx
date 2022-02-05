@@ -23,7 +23,7 @@ function App() {
 
     <div className={`${darkmode ? 'App' : 'alt-style'}`}>
       <Header className="header" />
-      <Title className="title" title="Antony LE, Développeur Web Fullstack JS" />
+      <Title className="title" title="Développeur Web Fullstack JS" />
       <ProfilePicture className="profile-picture" sourcePix={`${darkmode ? '../../maPhoto.png' : '../../maPhotoLunette.png'}`} />
       <BiographyTypical className="typical" />
       <Biography className="biography" />
@@ -37,4 +37,4 @@ function App() {
   );
 }
 
-export default App;
+export default React.memo(App);

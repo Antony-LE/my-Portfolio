@@ -32,4 +32,4 @@ BiographyTypical.defaultProps = {
   className: '',
 };
 
-export default BiographyTypical;
+export default React.memo(BiographyTypical);

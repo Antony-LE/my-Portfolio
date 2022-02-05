@@ -18,4 +18,4 @@ Logo.defaultProps = {
   className: '',
 };
 
-export default Logo;
+export default React.memo(Logo);

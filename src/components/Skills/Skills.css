@@ -8,7 +8,6 @@ font-size: 2em;
 }
 
 .skills span {
-    margin-top: 1em;
     margin-bottom: 1em;
     display: inline-block;
     width: 55vw;
@@ -18,7 +17,7 @@ font-size: 2em;
     display: inline-block;
     text-align: left;
     color: white;
-    font-size: 1.5em;
+    font-size: 1em;
     width: 32vw;
     background-color: #1F2937;
     margin: 0.5em;
@@ -29,3 +28,33 @@ font-size: 2em;
 .skills ul li img {
     margin-right: 0.5em;
 }
+
+@media screen and (max-width: 1024px) {
+    .skills li {
+     font-size: 0.65em;
+    }
+    .skills ul li img {
+       width: 11px;
+       height: 11px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .skills li {
+        font-size: 0.55em;
+       }
+  }
+
+  @media screen and (max-width: 575px) {
+
+    .skills li {
+        font-size: 0.15em;
+        padding: 2em;
+       }
+
+    .skills ul li img {
+        width: 5px;
+        height: 5px;
+     }
+  }

@@ -5,8 +5,8 @@ const navbarElements = [
   },
 
   {
-    element: 'About Me',
-    ancre: '#about',
+    element: 'Skills',
+    ancre: '#skills',
   },
 
   {

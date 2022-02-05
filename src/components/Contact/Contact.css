@@ -30,5 +30,8 @@
     display: inline-block;
     margin: 0 auto;
     margin-top: 2em;
+    margin-bottom: 2em;
+    width: 45vw;
+    height: 55vh;
 }
 

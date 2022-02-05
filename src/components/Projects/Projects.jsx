@@ -39,4 +39,4 @@ Projects.defaultProps = {
   className: '',
 };
 
-export default Projects;
+export default React.memo(Projects);

@@ -20,4 +20,4 @@ ProfilePicture.defaultProps = {
   sourcePix: '',
 };
 
-export default ProfilePicture;
+export default React.memo(ProfilePicture);

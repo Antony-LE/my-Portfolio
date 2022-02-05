@@ -26,4 +26,4 @@ Navbar.defaultProps = {
   className: '',
 };
 
-export default Navbar;
+export default React.memo(Navbar);

@@ -28,4 +28,4 @@ SocialMediaNavbar.defaultProps = {
 
 SocialMediaNavbar.propTypes = {};
 
-export default SocialMediaNavbar;
+export default React.memo(SocialMediaNavbar);

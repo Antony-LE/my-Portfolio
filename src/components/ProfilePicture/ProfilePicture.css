@@ -1,3 +1,26 @@
 .profile-picture img {
-    margin-top: 2em;
+    margin-top: 1.5em;
 }
+
+@media screen and (max-width: 1024px) {
+    .profile-picture img {
+        width: 200px;
+        height: 200px;
+    }
+ }
+
+ @media screen and (max-width: 768px) {
+ 
+    .profile-picture img {
+        width: 150px;
+        height: 150px;
+    }
+   }
+ 
+ @media screen and (max-width: 615px) {
+ 
+    .profile-picture img {
+        width: 100px;
+        height: 100px;
+    }
+   }
