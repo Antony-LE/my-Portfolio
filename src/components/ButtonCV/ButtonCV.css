@@ -12,3 +12,15 @@
     background-color: #3e4b5c;
     color: white;
 }
+
+@media screen and (max-width: 400px) {
+
+    .buttonCV {
+        margin: 1em;
+        padding: 1em;
+        background-color: #1F2937;
+        color: #717d97 ;
+        font-size: 1em;
+    }
+    
+  }

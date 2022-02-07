@@ -15,7 +15,7 @@ function Projects({ className }) {
         height="70px"
       />
       <h2>Mes Projets</h2>
-      <span>🚧🚧🚧🚨  Under Contruction  🚨🚧 🚧 🚧 </span>
+      <span id="subtitle">🚧🚧🚧🚨  Under Contruction  🚨🚧 🚧 🚧 </span>
       <div className={className}>
         {projectsData.map((project) => (
           <section key={uniqid()}>

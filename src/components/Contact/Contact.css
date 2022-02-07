@@ -35,3 +35,9 @@
     height: 55vh;
 }
 
+@media screen and (max-width: 400px) {
+    .contact iframe {
+        width: 60vw;
+        height: 50vh;
+    }
+  }

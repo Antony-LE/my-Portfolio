@@ -58,3 +58,19 @@ font-size: 2em;
         height: 5px;
      }
   }
+
+  @media screen and (max-width: 400px) {
+
+    .skills span {
+        width: 85vw;
+        font-size: 0.8em;
+    }
+
+    .skills li {
+        font-size: 0.5em;
+        width: 40vw;
+        margin-left: auto;
+        margin-right: auto;
+       }
+    
+  }

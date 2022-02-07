@@ -60,3 +60,18 @@ h2 {
        width: 45vw;
     }
   }
+
+  @media screen and (max-width: 400px) {
+
+    .projects section {
+        width: 50vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #subtitle {
+        font-size: 1em;
+       }
+    
+  }
+
