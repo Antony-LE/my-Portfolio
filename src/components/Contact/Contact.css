@@ -35,7 +35,7 @@
     height: 55vh;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 415px) {
     .contact iframe {
         width: 60vw;
         height: 50vh;

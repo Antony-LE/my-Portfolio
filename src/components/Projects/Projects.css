@@ -61,7 +61,7 @@ h2 {
     }
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 415px) {
 
     .projects section {
         width: 50vw;

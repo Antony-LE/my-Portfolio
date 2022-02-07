@@ -25,11 +25,11 @@
        }
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 415px) {
 
     .socialMediaNavbar img {
-      width: 0.6rem;
-      height: 0.6rem;
+      width: 0.7rem;
+      height: 0.7rem;
       margin-top: 1.3em;
       margin-right: 1em;
      }

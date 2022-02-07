@@ -42,13 +42,13 @@
        }
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 415px) {
 
     .navbar {
         width: 55vw;
     }
 
     .navbar li {
-        font-size: 0.4em;
+        font-size: 0.55em;
        }
   }

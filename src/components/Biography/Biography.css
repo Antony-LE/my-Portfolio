@@ -8,7 +8,7 @@
     font-size: 1em;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 415px) {
 
     .biography {
         width: 85vw;
