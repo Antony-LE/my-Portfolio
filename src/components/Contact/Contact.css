@@ -3,8 +3,8 @@
     justify-content: center;
     flex-direction: column;
     margin: 1em;
-    margin-top: 4em;
-    margin-bottom: 4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .contact a {
@@ -18,7 +18,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4em;
+    margin-top: 1.5em;
 }
 
 .contact h3 {
@@ -35,9 +35,34 @@
     height: 55vh;
 }
 
+@media screen and (max-width: 430px) {
+   .contact span {
+       width: 85vw;
+       font-size: 1em;
+   }
+   .contact iframe {
+    width: 65vw;
+    height: 45vh;
+}
+  }
+
 @media screen and (max-width: 415px) {
     .contact iframe {
         width: 60vw;
         height: 50vh;
     }
+
+    .contact span {
+        font-size: 1em;
+    }
   }
+
+  @media screen and (max-width: 320px) {
+
+    .contact span {
+        font-size: 1em;
+        width: 85vw;
+       }
+  
+  }
+

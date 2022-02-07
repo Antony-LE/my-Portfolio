@@ -42,7 +42,37 @@
        }
   }
 
+  @media screen and (max-width: 430px) {
+
+    .navbar {
+        width: 55vw;
+    }
+
+    .navbar li {
+        font-size: 0.58em;
+       }
+
+       .navbar ul {
+        padding-left: 1em;
+    }
+  }
+
   @media screen and (max-width: 415px) {
+
+    .navbar {
+        width: 55vw;
+    }
+
+    .navbar li {
+        font-size: 0.58em;
+       }
+
+       .navbar ul {
+        padding-left: 1em;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
 
     .navbar {
         width: 55vw;
@@ -51,4 +81,25 @@
     .navbar li {
         font-size: 0.55em;
        }
+
+       .navbar ul {
+        padding-left: 1em;
+    }
   }
+
+  @media screen and (max-width: 320px) {
+
+    .navbar {
+        margin-top: 0.1em;
+        margin-bottom: 0.1em;
+    }
+
+    .navbar ul {
+        padding-left: 1em;
+    }
+
+    .navbar li {
+        font-size: 0.45em;
+       }
+  }
+

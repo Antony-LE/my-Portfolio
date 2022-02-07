@@ -7,3 +7,24 @@
     padding: 2em;
     margin-top: 2em;
 }
+
+@media screen and (max-width: 415px) {
+
+    .footer {
+    font-size: 0.5em;
+    padding: 1.5em;
+     
+    }
+  
+  }
+
+@media screen and (max-width: 320px) {
+
+    .footer {
+    
+    font-size: 0.5em;
+    padding: 1.5em;
+     
+    }
+  
+  }

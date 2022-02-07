@@ -8,3 +8,11 @@
     top: 0; 
     width: 100vw;
 }
+
+@media screen and (max-width: 320px) {
+
+    .header {
+      justify-content: space-evenly;
+       }
+  }
+  

@@ -25,13 +25,39 @@
        }
   }
 
+  @media screen and (max-width: 430px) {
+
+    .socialMediaNavbar img {
+      width: 0.8em;
+      height: 0.8em;
+      margin-top: 1.1em;
+    }
+  }
+  
+
   @media screen and (max-width: 415px) {
 
     .socialMediaNavbar img {
-      width: 0.7rem;
-      height: 0.7rem;
-      margin-top: 1.3em;
+      width: 0.9rem;
+      height: 0.9rem;
+      margin-top: 1.2em;
       margin-right: 1em;
      }
+  }
+
+  @media screen and (max-width: 320px) {
+
+    .socialMediaNavbar img {
+      width: 0.5rem;
+      height: 0.5rem;
+      margin-top: 1em;
+      margin-right: 1em;
+     }
+
+     .socialMediaNavbar img {
+      width: 0.75rem;
+      height: 0.75rem;
+     }
+  
   }
   

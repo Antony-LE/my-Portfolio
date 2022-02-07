@@ -1,5 +1,8 @@
 .skills {
-    margin-top: 6em;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .skills h2 {
@@ -59,6 +62,31 @@ font-size: 2em;
      }
   }
 
+  @media screen and (max-width: 430px) {
+    .skills span {
+        width: 85vw;
+        font-size: 1em;
+     }
+
+     .skills ul {
+        width: 85vw;
+        font-size: 1em;
+     }
+
+     .skills li {
+        font-size: 1em;
+        width: 45vw;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+       }
+
+       .skills ul li img {
+        width: 12px;
+        height: 12px;
+     }
+    }
+
   @media screen and (max-width: 415px) {
 
     .skills span {
@@ -67,10 +95,42 @@ font-size: 2em;
     }
 
     .skills li {
-        font-size: 0.5em;
+        font-size: 0.80em;
         width: 40vw;
         margin-left: auto;
         margin-right: auto;
        }
     
+  }
+
+  @media screen and (max-width: 360px) {
+
+    .skills li {
+        font-size: 0.85em;
+        text-align: center;
+        padding: 1em;
+        margin-right: 0.5em;
+        width:50vw;
+       }
+  
+  }
+
+  @media screen and (max-width: 320px) {
+
+    .skills ul {
+       margin: 0;
+       padding: 0;
+       text-align: center;
+       margin-left: auto;
+       margin-right: auto;
+       }
+
+    .skills li {
+        font-size: 0.6em;
+        text-align: center;
+        padding: 1em;
+        margin-right: 0.5em;
+        width:50vw;
+       }
+  
   }
