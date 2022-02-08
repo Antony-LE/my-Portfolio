@@ -45,6 +45,14 @@ h2 {
     height: 11rem;
 }
 
+.projects-alt-style {
+    display: none;
+}
+
+.projects-alt-style span {
+    display: none;
+}
+
 @media screen and (max-width: 1024px) {
     .projects span {
      font-size: 0.8em;

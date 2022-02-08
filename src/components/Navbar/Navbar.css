@@ -1,5 +1,4 @@
 .navbar {
-    background-color: #1F2937;
     font-weight: bold;
     text-align: left;
     width: 35vw;
@@ -27,6 +26,37 @@
 
 .navbar a:hover {
     color: white;
+}
+
+.navbar-alt-style {
+    font-weight: bold;
+    text-align: left;
+    width: 35vw;
+    text-decoration: none;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.navbar-alt-style li {
+    display: inline;
+    margin-right: 1em;
+    color: #717d97;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.navbar-alt-style li:first-child {
+    color: #717d97;
+}
+
+.navbar-alt-style a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-alt-style a:hover {
+    color: white;
+    background-color:#717d97 ;
 }
 
 @media screen and (max-width: 1024px) {

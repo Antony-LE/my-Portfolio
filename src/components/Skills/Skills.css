@@ -32,6 +32,48 @@ font-size: 2em;
     margin-right: 0.5em;
 }
 
+.skills-alt-style {
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills-alt-style li {
+    display: inline-block;
+    text-align: center;
+    color: #717d97;
+    font-size: 1em;
+    width: 30vw;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 20px;
+    border: solid 2px #717d97; 
+}
+
+.skills-alt-style li:hover {
+    color: white;
+    background-color: #717d97; 
+}
+
+.skills-alt-style ul li img  {
+    display: none;
+}
+    
+.skills-alt-style span {
+    display: none;
+    }
+
+.skills-alt-style ul li img {
+    margin-right: 0.5em;
+}
+
+.skills-alt-style #skills {
+    display: none;
+}
+
 @media screen and (max-width: 1024px) {
     .skills li {
      font-size: 0.65em;

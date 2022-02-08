@@ -2,6 +2,11 @@
     margin-top: 1.5em;
 }
 
+.profile-picture-alt-style img {
+    border: solid 3px #717d97 ;
+    border-radius: 50%;
+}
+
 @media screen and (max-width: 1024px) {
     .profile-picture img {
         width: 200px;

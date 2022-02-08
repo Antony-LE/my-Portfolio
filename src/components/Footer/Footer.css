@@ -8,6 +8,15 @@
     margin-top: 2em;
 }
 
+.footer-alt-style {
+    font-size: 0.7em;
+    color: #717d97;
+    font-weight: bold;
+    text-align: center;
+    padding: 2em;
+    margin-top: 0.5em;
+}
+
 @media screen and (max-width: 415px) {
 
     .footer {

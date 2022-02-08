@@ -35,6 +35,10 @@
     height: 55vh;
 }
 
+.contact-alt-style {
+    display: none;
+}
+
 @media screen and (max-width: 430px) {
    .contact span {
        width: 85vw;

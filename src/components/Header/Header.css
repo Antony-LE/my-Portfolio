@@ -9,6 +9,17 @@
     width: 100vw;
 }
 
+.header-alt-style {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color:white ;
+    position: fixed;
+    top: 0; 
+    width: 100vw;
+}
+
 @media screen and (max-width: 320px) {
 
     .header {

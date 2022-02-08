@@ -6,6 +6,14 @@
     display: block;
 }
 
+.title-alt-style h1 {
+    font-family: 'Roboto', sans-serif ;
+    font-size: 2em;
+    color: #717d97;
+    margin-top: 1.5em;
+    display: block;
+}
+
 @media screen and (max-width: 415px) {
 
     .title h1 {

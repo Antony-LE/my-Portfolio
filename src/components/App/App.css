@@ -15,10 +15,24 @@ span {
   font-family: 'Roboto', sans-serif;
 }
 
-.alt-style {
+.App-alt-style {
   background-color: white;
   text-align: center;
   color: #717d97;
 }
+
+.App-alt-style h2 {
+  display: none;
+}
+
+.App-alt-style #subtitle {
+  display: none;
+}
+
+.App-alt-style #projets {
+  display: none;
+}
+
+
 
 
