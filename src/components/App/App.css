@@ -1,11 +1,11 @@
 html, body {
   margin: 0;
   padding: 0;
+  scroll-behavior:smooth;
 }
 
 .App body {
   background-color: #111827;
-  scroll-behavior: smooth;
 }
 
 span {
