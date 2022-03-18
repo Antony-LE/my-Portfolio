@@ -42,7 +42,7 @@ h2 {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    width: 20rem;
+    width: 75%;
     height: 11rem;
 }
 
@@ -91,7 +91,7 @@ h2 {
      }
 
      .projects section {
-        width: 50vw;
+        width: 85vw;
         margin-left: auto;
         margin-right: auto;
     }
@@ -112,8 +112,14 @@ h2 {
   @media screen and (max-width: 320px) {
 
     .projects img {
-        width: 10rem;
+        width: 90%;
         height: 10rem;
+    }
+
+    .projects section {
+        width: 85vw;
+        margin-left: auto;
+        margin-right: auto;
     }
   
   }
