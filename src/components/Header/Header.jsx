@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 import './Header.css';
 import PropTypes from 'prop-types';
@@ -5,10 +6,12 @@ import Navbar from '../Navbar/Navbar';
 import Logo from '../Logo/Logo';
 import SocialMediaNavbar from '../SocialMediaNavbar/SocialMediaNavbar';
 
-function Header({ className, darkmode }) {
+function Header({ className }) {
+  // function Header({ className, darkmode }) {
   return (
     <div className={className}>
-      <Navbar className={`${darkmode ? 'navbar' : 'navbar-alt-style'}`} darkmode={darkmode} />
+      {/* <Navbar className={`${darkmode ? 'navbar' : 'navbar-alt-style'}`} darkmode={darkmode} /> */}
+      <Navbar className="navbar" />
       <Logo className="logo" />
       <SocialMediaNavbar className="socialMediaNavbar" />
     </div>
@@ -16,12 +19,12 @@ function Header({ className, darkmode }) {
 }
 Header.propTypes = {
   className: PropTypes.string,
-  darkmode: PropTypes.bool,
+  // darkmode: PropTypes.bool,
 };
 
 Header.defaultProps = {
   className: '',
-  darkmode: false,
+  // darkmode: false,
 };
 
 export default React.memo(Header);

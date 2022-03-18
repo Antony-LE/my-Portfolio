@@ -15,8 +15,8 @@
     font-size: 1.2em;
 }
 
-.navbar li:first-child {
-    color: white;
+.navbar li:last-child {
+    color: #48BB78;
 }
 
 .navbar a {
