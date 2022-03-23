@@ -11,7 +11,7 @@ function Projects({ className }) {
     <div>
       {/* <img
         id="projets"
-        src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2013/png/iconmonstr-code-2.png&r=113&g=125&b=151"
+        src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2018/png/iconmonstr-task-thin.png&r=113&g=125&b=151"
         alt="logo developement"
         width="70px"
         height="70px"

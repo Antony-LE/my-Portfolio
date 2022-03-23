@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.a5abe34c.css",
-    "main.js": "/static/js/main.90a4460f.js",
+    "main.js": "/static/js/main.a9bf7251.js",
     "static/media/projet-runningwild.PNG": "/static/media/projet-runningwild.45f9a8b263ebe547b5ef.PNG",
+    "static/media/projet-fooder.PNG": "/static/media/projet-fooder.7f47038eba157b6802ad.PNG",
     "index.html": "/index.html",
     "main.a5abe34c.css.map": "/static/css/main.a5abe34c.css.map",
-    "main.90a4460f.js.map": "/static/js/main.90a4460f.js.map"
+    "main.a9bf7251.js.map": "/static/js/main.a9bf7251.js.map"
   },
   "entrypoints": [
     "static/css/main.a5abe34c.css",
-    "static/js/main.90a4460f.js"
+    "static/js/main.a9bf7251.js"
   ]
 }
