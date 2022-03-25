@@ -9,7 +9,11 @@ function Biography({ className }) {
   // eslint-disable-next-line react/no-unescaped-entities
   return (
     <div>
-      <span className={className}>Hello moi c'est Antony ou "Tony", pour les intimes. Après avoir travaillé pendant 10 ans dans le commerce et la relation client pour une grande multinationale, je me suis intéressé au développement Web pour finalement tomber amoureux de ce domaine et en faire mon métier !</span>
+      <div className={className}>
+        <span>Après une carrière de 10 ans dans la relation client et le commerce, j'ai poursuivi une formation de développeur Web Fullstack JavaScript avec une spécialité REACT au sein de l'organisme O'clock.</span>
+        <span> Passionné de nouvelles technologies, mes précédentes expériences commerciales et managériales m’ont permis d’acquérir des compétences utiles dans le monde du développement. A savoir la maitrise de l’anglais dans un contexte professionnel, la résistance au stress et l’art de négocier avec des clients ayant des exigences techniques précises et des deadlines courtes.</span>
+        <span>Ayant évolué dans un environnement technique lors de ma précédente expérience j’ai apprécié pouvoir identifier et proposer des solutions viables à mes clients. Manager confirmé, j’ai pour habitude de diffuser une communication continuelle, efficace et bienveillante.</span>
+      </div>
     </div>
   );
 }

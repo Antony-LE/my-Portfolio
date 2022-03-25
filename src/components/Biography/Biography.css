@@ -8,6 +8,14 @@
     font-size: 1em;
 }
 
+.biography span {
+    
+    font-size: 0.8em;
+    margin: 2em;
+    display: block;
+    text-align: center;
+}
+
 .biography-alt-style {
     display: none;
 }
