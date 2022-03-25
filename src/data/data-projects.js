@@ -9,7 +9,7 @@ const projectsData = [
   {
     title: 'Fooder',
     subtitle: 'React, NodeJS',
-    description: 'Quand on ne sait pas quoi manger, le site Fooder est la solution ! ',
+    description: 'Quand on ne sait pas quoi cuisiner, le site Fooder est la solution ! ',
     link: 'https://fooder-ce9c0.web.app/',
     image: 'projet-fooder.PNG',
   },
