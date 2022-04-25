@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.8ac2a62d.css",
-    "main.js": "/static/js/main.bc201a57.js",
+    "main.css": "/static/css/main.7439e385.css",
+    "main.js": "/static/js/main.b3f2053d.js",
     "static/media/projet-runningwild.PNG": "/static/media/projet-runningwild.45f9a8b263ebe547b5ef.PNG",
     "static/media/projet-spaceX-launches.PNG": "/static/media/projet-spaceX-launches.88826026dbd43396c87e.PNG",
     "static/media/projet-fooder.PNG": "/static/media/projet-fooder.57fc1048d6da36124502.PNG",
     "index.html": "/index.html",
-    "main.8ac2a62d.css.map": "/static/css/main.8ac2a62d.css.map",
-    "main.bc201a57.js.map": "/static/js/main.bc201a57.js.map"
+    "main.7439e385.css.map": "/static/css/main.7439e385.css.map",
+    "main.b3f2053d.js.map": "/static/js/main.b3f2053d.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ac2a62d.css",
-    "static/js/main.bc201a57.js"
+    "static/css/main.7439e385.css",
+    "static/js/main.b3f2053d.js"
   ]
 }

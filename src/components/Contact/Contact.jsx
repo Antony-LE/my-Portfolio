@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contact.css';
 import PropTypes from 'prop-types';
+import iconContact from '../../images/icon-contact.png';
 
 function Contact({
   className, title, description, email,
@@ -9,10 +10,8 @@ function Contact({
     <div className={className}>
       <img
         id="contact"
-        src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-email-12.png&r=113&g=125&b=151"
+        src={iconContact}
         alt="contact icon"
-        width="65px"
-        height="65px"
       />
       <h3>{title}</h3>
       <span>
