@@ -1,3 +1,5 @@
+/* eslint-disable import/no-dynamic-require */
+/* eslint-disable global-require */
 /* eslint-disable max-len */
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
@@ -11,7 +13,7 @@ function SocialMediaNavbar({ className }) {
     <div className={className}>
       {socialMediaNavbarElements.map((socialMediaNavbarElement) => (
         <a key={uniqid()} href={socialMediaNavbarElement.link} target="_blank" rel="noreferrer">
-          <img src={socialMediaNavbarElement.icone} alt={className} width="35px" height="35px" />
+          <img src={require(`../../images/${socialMediaNavbarElement.icone}`)} alt={className} width="35px" height="35px" />
         </a>
       ))}
     </div>
